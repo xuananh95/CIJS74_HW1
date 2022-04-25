@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Phonebook</title>
+</head>
+<body>
+    <div class="content">
+        <form id="form-add">
+            <input id="input-name" class="btn" type="text" required placeholder="Tên" autofocus autocomplete="off">
+            <input id="input-phone" class="btn" type="tel" required placeholder="Số điện thoại" autocomplete="off">
+            <input id="btn-add" class="btn btn-blue" type="submit" value="THÊM">
+        </form>
+        <hr>
+        <form id="form-search">
+            <input id="input-search" class="btn" type="text" placeholder="Tìm kiếm" autocomplete="off">
+            <input class="btn btn-blue" id="btn-find" type="submit" value="TÌM">
+            <input class="btn btn-blue" id="btn-delete" type="submit" value="XÓA TRÙNG">
+        </form>
+        <div id="phonebook">
+
+        </div>
+    </div>
+
+    <!-- element.className = "contact";
+    element.innerHTML = `<div class="name">${name}</div>
+                         <div class="phone">${phone}</div>`; -->
+
+    <script src="task4.js" type="module"></script>
+
+</body>
+</html>

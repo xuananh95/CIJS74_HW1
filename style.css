@@ -1,0 +1,62 @@
+body {
+    font-size: 14px;
+}
+
+.content {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+form {
+    margin: 15  px;
+}
+
+.btn {
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.15  );
+    padding: 3px;
+
+}
+
+.btn-blue {
+    background-color:  #3b5998;
+    color: white;
+}
+
+#input-name, #input-phone {
+    width: 35%;
+}
+#btn-add {
+    width: 22%;
+}
+
+#input-search{
+    width: 58%;
+}
+#btn-find{
+    width: 18%;
+}
+#btn-delete{
+    width: 18%;
+}
+
+#phonebook {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 10px;
+    margin: 5px;
+}
+.name, .phone, .not-found{
+    padding: 8px;
+    text-align: left;
+    display: inline;
+    width: 45%;
+}
